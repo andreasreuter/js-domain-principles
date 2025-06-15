@@ -34,7 +34,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.11.1",
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
