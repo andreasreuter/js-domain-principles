@@ -1,0 +1,61 @@
+{
+  "name": "@andreasreuter/js-domain-principles",
+  "version": "0.1.0",
+  "description": "Incredible domain-driven design toolkit to get you started coding with these principles.",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint __mocks__/ __tests__/ src/",
+    "test": "jest"
+  },
+  "keywords": [
+    "ddd",
+    "domain-driven-design",
+    "domain-principles",
+    "javascript",
+    "library",
+    "typescript",
+    "typings"
+  ],
+  "author": {
+    "name": "Andreas Reuter",
+    "email": "andireuter86@gmail.com",
+    "url": "https://www.andireuter.com"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/andireuter?utm_medium=npm&utm_source=github&utm_campaign=js_domain_principles"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@rollup/plugin-commonjs": "^28.0.5",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/jest": "^29.5.14",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-jest": "^28.13.5",
+    "jest": "^30.0.0",
+    "prettier": "^3.5.3",
+    "rollup": "^4.43.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1",
+    "uuid": "^11.1.0"
+  }
+}
